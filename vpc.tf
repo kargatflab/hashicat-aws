@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "app.terraform.io/hashicat-aws/vpc/aws"
+  source = "app.terraform.io/kargausa/vpc/aws""
 
   name = "kargatf-vpc"
   cidr = "10.0.0.0/16"
